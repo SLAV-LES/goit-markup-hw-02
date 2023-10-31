@@ -33,7 +33,7 @@ span {
     color: var(--IRIS, #2E2F42);
 }
 
-.menu-item {
+.menu-link {
     font-family: Roboto;
     font-size: 16px;        
     font-weight: 500;
