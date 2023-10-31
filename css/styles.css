@@ -5,19 +5,30 @@
 .link {
     text-decoration: none;
 }
-
-button {
-    cursor: pointer;
-}
 /* =========== /COMMON STYLES =========== */
 
 /* =========== HEADER STYLES =========== */
 
 body {
-    font-family: Roboto, Raleway, sans-serif;    
+    font-family: Roboto, sans-serif;    
     color: var(--SLATE, #434455);
     font-weight: 400;
     background: #FFFFFF;
+}
+button {
+    cursor: pointer;
+}
+button:hover,
+button:focus {   
+    color: #404BBF
+        /* Button Text */
+        font-family: Roboto, sans-serif;
+        font-size: 16px;        
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.04em;
+        color: var(--WHITE, #FFFFFF);
 }
 
 .logotype {   
@@ -27,10 +38,11 @@ body {
     line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03em;
-    color: var(--IRIS, #2E2F42);
-}
-.logotype span {
+    text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
+}
+span {
+    color: var(--IRIS, #2E2F42);
 }
 
 .menu-link {
@@ -38,7 +50,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -58,6 +70,13 @@ body {
 
 /* =========== HERO STYLES =========== */
 
+section {
+background: var(--NAVY-BLUE, #2E2F42);
+}
+.hero-mage {
+background: var(--CLOUD, #F4F4FD);
+}
+
 .hero-title {
         /* Header 1 */
     font-family: Roboto, sans-serif;
@@ -65,21 +84,24 @@ body {
     font-weight: 700;
     line-height: 1.07;
     /* 107.143% */
-    letter-spacing: 0.02;  
-    color: var(--WHITE, #FFFFFF);
-    background: var(--NAVY-BLUE, #2E2F42);
+    letter-spacing: 0.02em;  
+    text-align: center;
+    color: var(--WHITE, #FFFFFF);    
 }
 /* =========== /HERO STYLES =========== */
 
 /* =========== FUTURE =========== */
 
+.future {
+
+}
 .menu-future {
     /* Header 3 */
     font-family: Roboto, sans-serif;
     font-size: 20px;            
     line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -89,7 +111,7 @@ body {
         font-size: 16px;        
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         color: var(--SLATE, #434455);
 }
 
@@ -100,7 +122,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     /* 120% */
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -110,13 +132,16 @@ body {
         font-size: 16px;
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         color: var(--SLATE, #434455);
 }
 /* =========== /FUTURE =========== */
 
 /* =========== OUR TEAM =========== */
 
+.menu-our-team {
+    background: var(--WHITE, #FFFFFF);
+}
 .our-team {           
         /* Header 2 */
         font-family: Roboto, sans-serif;
@@ -124,7 +149,8 @@ body {
         font-weight: 700;
         line-height: 1.11;
         /* 111.111% */
-        letter-spacing: 0.02;        
+        letter-spacing: 0.02em;        
+        background: var(--CLOUD, #F4F4FD);
         color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -135,7 +161,9 @@ body {
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
-        letter-spacing: 0.01;
+        letter-spacing: 0.01em;
+        text-align: center;
+        text-transform: capitalize;
         color: var(--NAVY-BLUE, #2E2F42);
 }
 .team-card {    
@@ -144,7 +172,7 @@ body {
         font-size: 16px;        
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         color: var(--SLATE, #434455);
 }
 /* =========== /OUR TEAM =========== */
@@ -158,7 +186,7 @@ body {
     font-weight: 700;
     line-height: 1.11;
     /* 111.111% */
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -169,7 +197,7 @@ body {
         font-weight: 500;
         line-height: 1.2;
         /* 120% */
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -179,7 +207,7 @@ body {
         font-size: 16px;        
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         color: var(--SLATE, #434455);
 }
 /* =========== /OUR PORTFOLIO =========== */
@@ -189,23 +217,23 @@ body {
 footer {
     background: var(--NAVY-BLUE, #2E2F42);
 }
-.logo-futer {    
+.logo-footer {    
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     /* 116.667% */
-    letter-spacing: 0.03;
-    color: var(--CLOUD, #F4F4FD);
+    letter-spacing: 0.03em;
+    color: var(--IRIS, #4D5AE5);
 }
-.logo-futer span {    
+.logo-footer span {    
         font-family: Raleway, sans-serif;
         font-size: 18px;        
         font-weight: 700;
         line-height: 1.17;
         /* 116.667% */
-        letter-spacing: 0.03;  
-        color: var(--IRIS, #4D5AE5);
+        letter-spacing: 0.03em;  
+        color: var(--CLOUD, #F4F4FD);        
 }
 .desc-footer {
     /* Body */
@@ -213,7 +241,7 @@ footer {
     font-size: 16px;    
     line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.02;    
+    letter-spacing: 0.02em;    
     color: var(--CLOUD, #F4F4FD);
 }
 /* =========== /PAGE FUTER =========== */
