@@ -1,0 +1,232 @@
+/* =========== COMMON STYLES =========== */
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+/* =========== /COMMON STYLES =========== */
+
+/* =========== HEADER STYLES =========== */
+
+body {
+    font-family: "Roboto", "Raleway", sans-serif;    
+    color: var(--SLATE, #434455);
+    font-weight: 400;
+}
+
+.logotype {   
+    font-family: Raleway, sans-serif;
+    font-size: 18px;        
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS, #2E2F42);
+}
+.logotype span {
+    color: var(--IRIS, #4D5AE5);
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--OCEAN, #404BBF);
+}
+
+.adr-link {    
+    color: var(--SLATE, #434455);
+}
+.adr-link:hover,
+.adr-link:focus {
+    color: var(--OCEAN, #404BBF);
+}
+/* =========== /HEADER STYLES =========== */
+
+/* =========== HERO STYLES =========== */
+
+.hero-title {
+    /* width: 496px;
+    text-align: center; */
+    /* Header 1 */
+    font-family: Roboto, sans-serif;
+    font-size: 56px;  
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 0.02;    
+    /* width: 1440px;
+    height: 600px;
+    flex-shrink: 0; */
+    color: var(--WHITE, #FFFFFF);
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+/* =========== /HERO STYLES =========== */
+
+/* =========== FUTURE =========== */
+
+.menu-future {
+    /* Header 3 */
+    font-family: Roboto, sans-serif;
+    font-size: 20px;            
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.menu-future-list {    
+        /* Body */
+        font-family: Roboto, sans-serif;
+        font-size: 16px;        
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02;
+        color: var(--SLATE, #434455);
+}
+
+.title-future {
+    /* Header 3 */
+    font-family: Roboto, sans-serif;
+    font-size: 20px;    
+    font-weight: 500;
+    line-height: 1.2;
+    /* 120% */
+    letter-spacing: 0.02;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.p-future {    
+        /* Body */
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02;
+        color: var(--SLATE, #434455);
+}
+/* =========== /FUTURE =========== */
+
+/* =========== OUR TEAM =========== */
+
+.our-team {   
+        /* text-align: center;     */
+        /* Header 2 */
+        font-family: Roboto, sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.02;
+        text-transform: capitalize;
+        color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.title-team-card {    
+        /* text-align: center;     */
+        /* Header 3 */
+        font-family: Roboto, sans-serif;
+        font-size: 20px;        
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.01;
+        color: var(--NAVY-BLUE, #2E2F42);
+}
+.team-card {    
+        /* text-align: center; */    
+        /* Body */
+        font-family: Roboto, sans-serif;
+        font-size: 16px;        
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02;
+        color: var(--SLATE, #434455);
+}
+/* =========== /OUR TEAM =========== */
+
+/* =========== /OUR PORTFOLIO =========== */
+
+.title-our-portfolio {
+    /* text-align: center; */
+    /* Header 2 */
+    font-family: Roboto, sans-serif;
+    font-size: 36px;    
+    font-weight: 700;
+    line-height: 1.11;
+    /* 111.111% */
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.portfolio-title {    
+        /* Header 3 */
+        font-family: Roboto, sans-serif;
+        font-size: 20px;        
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.02;
+        color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.portfolio-desc {   
+        /* Body */
+        font-family: Roboto, sans-serif;
+        font-size: 16px;        
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02;
+        color: var(--SLATE, #434455);
+}
+/* =========== /OUR PORTFOLIO =========== */
+
+/* =========== /PAGE FUTER =========== */
+
+footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+.logo-futer {    
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03;
+    text-transform: uppercase;    
+    color: var(--CLOUD, #F4F4FD);
+}
+.logo-futer span {    
+        font-family: Raleway, sans-serif;
+        font-size: 18px;        
+        font-weight: 700;
+        line-height: 1.17;
+        /* 116.667% */
+        letter-spacing: 0.03;
+        text-transform: uppercase;        
+        color: var(--IRIS, #4D5AE5);
+}
+.desc-footer {
+    /* Body */
+    font-family: Roboto, sans-serif;
+    font-size: 16px;    
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02;    
+    color: var(--CLOUD, #F4F4FD);
+}
+/* =========== /PAGE FUTER =========== */
