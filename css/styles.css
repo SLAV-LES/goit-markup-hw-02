@@ -1,4 +1,4 @@
-/* =========== COMMON STYLES =========== */
+ /* =========== COMMON STYLES =========== */
 .list {
     list-style-type: none;
 }
@@ -18,18 +18,6 @@ body {
 button {
     cursor: pointer;
 }
-button:hover,
-button:focus {   
-    color: #404BBF
-        /* Button Text */
-        font-family: Roboto, sans-serif;
-        font-size: 16px;        
-        font-weight: 500;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.04em;
-        color: var(--WHITE, #FFFFFF);
-}
 
 .logotype {   
     font-family: Raleway, sans-serif;
@@ -44,8 +32,11 @@ button:focus {
 span {
     color: var(--IRIS, #2E2F42);
 }
+address {
+    font-style: normal;
+}
 
-.menu-link {
+.adr-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -59,9 +50,10 @@ span {
     color: var(--OCEAN, #404BBF);
 }
 
-.adr-link {    
+/* .adr-link { 
+
     color: var(--SLATE, #434455);
-}
+} */
 .adr-link:hover,
 .adr-link:focus {
     color: var(--OCEAN, #404BBF);
@@ -76,6 +68,21 @@ background: var(--NAVY-BLUE, #2E2F42);
 .hero-mage {
 background: var(--CLOUD, #F4F4FD);
 }
+
+.button-hero:hover,
+.button-hero:focus {
+        color: #404BBF;
+}
+.button-hero {
+        /* Button Text */
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.04em;
+        color: var(--WHITE, #FFFFFF);
+    }
 
 .hero-title {
         /* Header 1 */
@@ -126,7 +133,7 @@ background: var(--CLOUD, #F4F4FD);
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.p-future {    
+.desc-future {    
         /* Body */
         font-family: Roboto, sans-serif;
         font-size: 16px;
@@ -139,6 +146,9 @@ background: var(--CLOUD, #F4F4FD);
 
 /* =========== OUR TEAM =========== */
 
+.team-sec {
+  background: var(--CLOUD, #F4F4FD);
+  }
 .menu-our-team {
     background: var(--WHITE, #FFFFFF);
 }
@@ -149,8 +159,9 @@ background: var(--CLOUD, #F4F4FD);
         font-weight: 700;
         line-height: 1.11;
         /* 111.111% */
-        letter-spacing: 0.02em;        
-        background: var(--CLOUD, #F4F4FD);
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
         color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -179,6 +190,9 @@ background: var(--CLOUD, #F4F4FD);
 
 /* =========== /OUR PORTFOLIO =========== */
 
+.portfolio {
+    background: #FFFFFF;
+}
 .title-our-portfolio {    
     /* Header 2 */
     font-family: Roboto, sans-serif;
@@ -187,6 +201,8 @@ background: var(--CLOUD, #F4F4FD);
     line-height: 1.11;
     /* 111.111% */
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -224,17 +240,14 @@ footer {
     line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--IRIS, #4D5AE5);
 }
-.logo-footer span {    
-        font-family: Raleway, sans-serif;
-        font-size: 18px;        
-        font-weight: 700;
-        line-height: 1.17;
-        /* 116.667% */
-        letter-spacing: 0.03em;  
-        color: var(--CLOUD, #F4F4FD);        
+
+.logo-footer {
+    color: #F4F4FD;
 }
+
 .desc-footer {
     /* Body */
     font-family: Roboto, sans-serif;
@@ -244,4 +257,4 @@ footer {
     letter-spacing: 0.02em;    
     color: var(--CLOUD, #F4F4FD);
 }
-/* =========== /PAGE FUTER =========== */
+/* =========== /PAGE FOOTER =========== */
